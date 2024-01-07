@@ -9,27 +9,36 @@
 </head>
 
 
-Гра вгадай де кролик
+<!-- Гра вгадай де кролик
 Створити 3 бокса в один з них посмістити кролика
 При натисканні кнопки старт, заховати кролика у кробку, перетасувати
 Користувач має вгадати де сидить кролик, якщо вгадав показуємо кроля,
 якщо ні бокс загорається червоним
 Кнопка старт запускає процес по новій,
-і так поки рахунок в чиюсь користь не буде 5 очків, грає користувач і кролик
+і так поки рахунок в чиюсь користь не буде 5 очків, грає користувач і кролик -->
+
 
 <body>
 
 
-    <div class="box" id="1">Box 1</div>
-    <div class="box" id="2">Box 2
-        <img class="box__img" src="./img/main-crolic.jpeg" alt="">
+    <div class="box">Box 1
+        <img class="box__img hidden" src="./img/main-crolic.jpeg" alt="">
+
     </div>
-    <div class="box" id="3">Box 3</div>
+    <div class="box">Box 2
+        <img class="box__img hidden" src="./img/main-crolic.jpeg" alt="">
+    </div>
+    <div class="box">Box 3
+        <img class="box__img" src="./img/main-crolic.jpeg" alt="">
 
+    </div>
 
+    <h3 class="score">0:0</h3>
 
+    <button class="button">Start</button>
 
     <script src="./main.js"></script>
+
 </body>
 
 </html>
