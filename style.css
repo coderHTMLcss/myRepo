@@ -2,8 +2,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 300px;
 }
 
 .box{
-    width: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 2px solid black;
+    background-color: bisque;
+   margin-right: 50px;
+   text-align: center;
+}
+
+.box__img{
+    width: inherit;
+    height: inherit;
 }
